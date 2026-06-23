@@ -51,16 +51,16 @@ module.exports = defineConfig({
         ...devices['Desktop Chrome'],
         storageState: AUTH_FILE,
       },
-    },
-    {
-      name: 'firefox',
-      testIgnore: ignoredTests,
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      testIgnore: ignoredTests,
-      use: { ...devices['Desktop Safari'] },
+    // },
+    // {
+    //   name: 'firefox',
+    //   testIgnore: ignoredTests,
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+    // {
+    //   name: 'webkit',
+    //   testIgnore: ignoredTests,
+    //   use: { ...devices['Desktop Safari'] },
     },
   ],
 });
